@@ -6,6 +6,8 @@ lo que el resultado es muy mejorable.
 
 INSTRUCCIONES DEL JUEGO
 
+Para arrancar el juego, descargar todos los archivos y abrir el archivo "index.html" en un navegador.
+
 Se trata de un juego en el que debemos encontrar la pareja de cada palabra en inglés-castellano. Las parejas se ordenan de forma aleatoria cada vez que se inicia un juego, se sube de nivel o se resetea un nivel.
 
 Este juego tiene varios niveles de dificultad. Por defecto se empieza por el nivel 1 y se debe conseguir un registro mínimo para poder seguir y desbloquear los niveles superiores.
