@@ -1,0 +1,50 @@
+<html 
+lang="es">
+</html>
+<head>
+    <meta charset=" UTF-8">
+    <link rel= stylesheet href="estilos.css" /> 
+</head>
+<body>
+    <div id="container">
+
+    <header>
+        <h1> VAMOS A JUGAR: Junta cada item con su pareja y haz click en "check" para comprobar el emparejamiento</h1>
+    
+    </header>
+    </div>
+    <div id="timer"></div>
+    <div id="elnivel"></div>
+    <div id="mensajeDelFinal"></div>
+   
+    <div class="container2">
+    <button onclick="start()" class="start" id="start" > Start</button>
+    <button onclick="check()" class=" check" id="check" > Check</button>
+    <button onclick="resetTable()" class="reset" id="reset" > Reset</button>
+    <button onclick="location.reload()"class="nivel1" id="nivel1"> NIVEL 1</button>
+    <button onclick="nivel2()"class="nivel2" id="nivel2"> NIVEL 2</button>
+    <button onclick="nivel3()"class="nivel3"id="nivel3" > NIVEL 3</button>
+   
+    <div id="mensaje"></div>
+
+    <button onclick="asignarValorCasa()" class="casa" id="casa" > Casa</button>
+    <button onclick="asignarValorHouse()" class="house" id="house" > House</button>
+    <button onclick="asignarValorCoche()" class="coche" id="coche" > Coche</button>
+    <button onclick="asignarValorCar()"  class="car"id="car" > Car</button>
+    <button onclick="asignarValorPerro()"  class="perro"id="perro" > Perro</button>
+    <button onclick="asignarValorDog()"  class="dog"id="dog" > Dog</button>
+    <button onclick="asignarValorMono()"  class="mono"id="mono" > Mono</button>
+    <button onclick="asignarValorMonkey()"  class="monkey"id="monkey" > Monkey</button>
+    <button onclick="asignarValorLoro()"  class="loro"id="loro" > Loro</button>
+    <button onclick="asignarValorParrot()"  class="parrot"id="parrot" > Parrot</button>
+    <button onclick="asignarValorTable()"  class="table"id="table" > Table</button>
+    <button onclick="asignarValorMesa()"  class="mesa"id="mesa" > Mesa</button>
+  </div>
+ 
+ <h2>Desbloquear el nivel 2: contador por encima de 20 segundos en nivel 1<br>Desbloquear nivel 3: contador por encima de 13  segundos en nivel 2<br>
+    Master of Universe: contador por encima de 6 segundos en el nivel 3
+ </h2> 
+
+<script src="juego.js"></script>
+
+</body>

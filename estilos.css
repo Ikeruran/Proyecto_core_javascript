@@ -1,0 +1,238 @@
+body{
+    background: -webkit-linear-gradient(90deg, yellow 10%, orange 90%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.container2{
+    width: 90%;
+    height: 60%;
+    margin: 0px auto;
+    border: 1px solid black; 
+}
+
+header{
+    
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.start{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(149, 255, 0);
+    color: rgb(0, 2, 4);
+    height:30px;
+    width:75px;
+    border:3px solid black;
+
+
+}
+
+.check{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 136, 255);
+    color: aliceblue;
+    height:150px;
+    width: 150px;
+    border:3px solid black;
+
+
+}
+.reset{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(170, 103, 228);
+    color: rgb(7, 7, 8);
+    height:30px;
+    width:75px;
+    border:3px solid black;
+
+
+}
+.nivel1{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(232, 204, 196);
+    
+    height:30px;
+    width:75px;
+    border:3px solid black;
+
+
+}
+.nivel2{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(218, 96, 62);
+    
+    height:30px;
+    width:75px;
+    border:3px solid black;
+
+
+}
+.nivel3{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(111, 172, 89);
+    
+    height:30px;
+    width:75px;
+    border:3px solid black;
+
+
+}
+.mesa{
+    margin-top: 450px;
+    margin-left: 300px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    position: absolute;
+
+
+}
+.table{
+    margin-top: 500px;
+    margin-left: 300px;
+    margin-bottom: 400px;
+    margin-right: 100px;
+    position: absolute;
+
+
+}
+
+.loro{
+    margin-top: 650px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    position: absolute;
+
+
+}
+.parrot{
+    margin-top: 400px;
+    margin-left: 300px;
+    margin-bottom: 400px;
+    margin-right: -200px;
+    position: absolute;
+
+
+}
+.monkey{
+    margin-top: 400px;
+    margin-left: 200px;
+    margin-bottom: 400px;
+    margin-right: 300px;
+    position: absolute;
+
+
+}
+.mono{
+    margin-top: 400px;
+    margin-left: 100px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    position: absolute;
+
+
+}
+
+.casa{
+    margin-top: 600px;
+    margin-left: 100px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    position: absolute;  
+}
+.house{
+    margin-top: 600px;
+    margin-left: 100px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    position: absolute; ;   
+}
+.coche{
+    margin-top: 400px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    position: absolute;      
+}
+.car{
+    margin-top: 600px;
+    margin-left: 300px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    position: absolute;   
+}
+.perro{
+    margin-top: 650px;
+    margin-left: 300px;
+    margin-bottom: 400px;
+    margin-right: 700px;
+    position: absolute;    
+}
+.dog{
+    margin-top: 450px;
+    margin-left: 300px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    position: absolute;    
+}
+
+
+
+button{
+    
+    height:40px;
+    width:85px;
+    border:3px solid black;
+    margin: 40px;
+    cursor: pointer;
+    background-color: rgb(254, 250, 250);
+    border-radius: 15px;
+}
+#elnivel{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+    font-size: 2em;
+}
+#mensaje{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+    font-size: 2.6em;
+}
+#mensajeDelFinal{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: none;
+   margin:5px 0;
+    font-size: 2em;
+}
+#timer{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+    font-size: 2.6em;
+}
+
+
+   
+    
+    
+    
+    
